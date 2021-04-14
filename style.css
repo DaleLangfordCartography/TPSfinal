@@ -314,6 +314,8 @@ li a:hover{
 
 .projectimagesubtext {
 	font-size: 16px;
+	margin-top: 0;
+	margin-bottom: 3vw;
 	font-style: italic;
 	text-align: center;
 }
