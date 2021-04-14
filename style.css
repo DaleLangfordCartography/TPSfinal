@@ -34,7 +34,6 @@ body {
 li {
 	float:left;
 	text-align:center;
-	vertical-align: middle;
 }
 
 li a{
@@ -42,10 +41,10 @@ li a{
 	color:white;
 	text-decoration: none;
 	width: 25vw;
-	padding: 10px 0px;
+	padding: 15px 0px;
 	letter-spacing: 1px;
 	flex: 1;
-	
+
 }
 
 li a:focus{
