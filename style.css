@@ -42,10 +42,10 @@ li a{
 	color:white;
 	text-decoration: none;
 	width: 25vw;
-	height: 2vw;
 	padding: 10px 0px;
 	letter-spacing: 1px;
 	flex: 1;
+	
 }
 
 li a:focus{
