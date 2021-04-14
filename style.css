@@ -34,6 +34,7 @@ body {
 li {
 	float:left;
 	text-align:center;
+	vertical-align: middle;
 }
 
 li a{
@@ -41,7 +42,7 @@ li a{
 	color:white;
 	text-decoration: none;
 	width: 25vw;
-	margin: 0;
+	height: 2vw;
 	padding: 10px 0px;
 	letter-spacing: 1px;
 	flex: 1;
