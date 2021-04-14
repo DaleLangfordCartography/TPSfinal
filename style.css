@@ -347,6 +347,14 @@ li a:hover{
 	display: block;
 }
 
+.projectimage3 {
+	width: 30vw;
+	height: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+
 
 @media only screen and (max-width: 900px) {
 
