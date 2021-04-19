@@ -140,6 +140,8 @@ li a:hover{
 	border-bottom:solid;
 	border-color: #4292c6;
 	border-width: 100%;
+	color: #020202;
+	font-weight: bold;
 }
 
 @media only screen and (max-width: 350px) {
