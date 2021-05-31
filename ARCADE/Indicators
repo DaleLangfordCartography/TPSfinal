@@ -1,0 +1,58 @@
+
+var difference = $datapoint["count"]-$reference["count"]
+var percentChange = Floor(100*($datapoint.count - $reference.count) / $reference.count, 1);
+
+var condition = $datapoint["count"] >= $reference["count"];
+
+if(difference > 0){
+  return {
+    backgroundColor:'#011B37',
+    topText: '2020 Homicide',
+    topTextColor: '#FFFFFF',
+    topTextMaxSize: 'small',
+    middleText: '+'+difference+' ',
+    middleTextColor: '#FFFFFF',
+    middleTextMaxSize: 'medium',
+    bottomText: percentChange+'% Change from 2019',
+    bottomTextColor: '#FFFFFF',
+    bottomTextMaxSize: 'medium',
+    iconName:'icon1',
+    iconAlign:'left',
+    iconColor:'#e60000',
+  }
+}
+
+else if(difference < 0){
+    return {
+        backgroundColor:'#011B37',
+        topText: '2020 Homicide',
+        topTextColor: '#FFFFFF',
+        topTextMaxSize: 'small',
+        middleText: ' '+difference+' ',
+        middleTextColor: '#FFFFFF',
+        middleTextMaxSize: 'medium',
+        bottomText: percentChange+'% Change from 2019',
+        bottomTextColor: '#FFFFFF',
+        bottomTextMaxSize: 'medium',
+        iconName:'icon2',
+        iconAlign:'left',
+        iconColor:'#4ce600',
+    }
+}
+
+else {
+    return {
+        backgroundColor:'#011B37',
+        topText: '2020 Homicide',
+        topTextColor: '#FFFFFF',
+        topTextMaxSize: 'small',
+        middleText: ' '+difference+' ',
+        middleTextColor: '#FFFFFF',
+        middleTextMaxSize: 'medium',
+        bottomText: percentChange+'% Change from 2019',
+        bottomTextColor: '#FFFFFF',
+        iconName:'icon3',
+        iconAlign:'left',
+        iconColor:'#e6e600',
+    }
+}
