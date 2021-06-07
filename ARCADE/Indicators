@@ -6,8 +6,8 @@ var condition = $datapoint["count"] >= $reference["count"];
 
 if(difference > 0){
   return {
-    backgroundColor:'#011B37',
-    topText: '2020 Homicide',
+    backgroundColor:'#022A56',
+    topText: '2020 Assault',
     topTextColor: '#FFFFFF',
     topTextMaxSize: 'small',
     middleText: '+'+difference+' ',
@@ -24,8 +24,8 @@ if(difference > 0){
 
 else if(difference < 0){
     return {
-        backgroundColor:'#011B37',
-        topText: '2020 Homicide',
+        backgroundColor:'#022A56',
+        topText: '2020 Assault',
         topTextColor: '#FFFFFF',
         topTextMaxSize: 'small',
         middleText: ' '+difference+' ',
@@ -42,8 +42,8 @@ else if(difference < 0){
 
 else {
     return {
-        backgroundColor:'#011B37',
-        topText: '2020 Homicide',
+        backgroundColor:'#022A56',
+        topText: '2020 Assault',
         topTextColor: '#FFFFFF',
         topTextMaxSize: 'small',
         middleText: ' '+difference+' ',
