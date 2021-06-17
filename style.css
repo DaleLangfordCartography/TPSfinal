@@ -430,12 +430,26 @@ li a:hover{
 }
 
 
-
 /* ################# Images ################# */
 
 .headshot{
 	border-radius: 100%;
 }
+
+.headshotOverlay {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	height: 100%;
+	width: 100%;
+	border-radius: 100%;
+	opacity: 0;
+	transition: .5s ease;
+	background-color: #008CBA;
+  }
+
 .image{
 	border-radius: 10px;
 	float: right;
