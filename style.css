@@ -260,6 +260,7 @@ li a:hover{
 	color:#000000;
 	padding-left: 2vw;
 	padding-right: 2vw;
+	line-height: 1.5;
 }
 
 
@@ -345,18 +346,6 @@ li a:hover{
 	display: flex;
 	justify-content: center;
 }
-
-
-
-/*   ################# MAP #################  */
-
-#map {
-	height: 400px;
-	/* The height is 400 pixels */
-	width: 100%;
-	/* The width is the width of the web page */
-    padding-top: 5vw;
-  }
 
 
 /*   ################# BLOCK MEDIA #################  */
@@ -457,6 +446,7 @@ li a:hover{
 .generalText{
 	margin-top: 0;
 	text-align: justify;
+	line-height: 1.5;
 }
 
 .homeSubHead{
@@ -467,24 +457,29 @@ li a:hover{
 .projdesc{
 	text-align: justify;
 	font-size:20px;
+	line-height: 1.5;
 }
 
 .text1{
 	font-size:22px;	
     text-align: justify;
+	line-height: 1.5;
 }
 .text2{
     font-size:18px;	
 	text-align: justify;
+	line-height: 1.5;
 }
 
 .text3{
     font-size:16px;	
 	text-align: justify;
+	line-height: 1.5;
 }
 
 .text4{
 	font-size:18px;
+	line-height: 1.5;
 }
 
 .projectimagesubtext {
@@ -534,6 +529,7 @@ li a:hover{
 	margin-left: auto;
 	margin-right: auto;
 	display: block;
+	padding-bottom: 5px;
 }
 
 .projectimage3 {
@@ -548,6 +544,12 @@ li a:hover{
 	height: 100%;
 }
 
+  .image2{
+	border-radius: 10px;
+	float: right;
+	margin:auto;
+	margin-left:1vw;
+}	
 
 @media only screen and (max-width: 900px) {
 
@@ -558,18 +560,8 @@ li a:hover{
 		width: 100%;
 		margin:auto;
 		padding-bottom: 3vw;
-	}
-  }
-
-  .image2{
-	border-radius: 10px;
-	float: right;
-	margin:auto;
-	margin-left:1vw;
-}	
-
-@media only screen and (max-width: 900px) {
-
+	}	
+	
 	.image2{
 		border-radius: 10px;
 		height:100%;
@@ -578,13 +570,24 @@ li a:hover{
 		margin:auto;
 		padding-bottom: 3vw;
 	}
+
+	.projectimage2 {
+		width: 30vw;
+		height: 100%;
+		margin-left: auto;
+		margin-right: auto;
+		padding-bottom: 5px;
+		display: block;
+	}
   }
+
 
 @media only screen and (max-width: 500px) {
 
 	.image2{
 		display: none;
 	}
+
   }
 
 /* ################# Footer ################# */
