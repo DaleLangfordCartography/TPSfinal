@@ -500,6 +500,7 @@ li a:hover{
 
 .headshot{
 	border-radius: 100%;
+	box-shadow: 0 0 5px #000000; 
 }
 
 .headshotOverlay {
