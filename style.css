@@ -519,7 +519,7 @@ li a:hover{
 }	
 
 .projectimage {
-	width: 30vw;
+	width: 40vw;
 	height: 100%;
 	padding-bottom: 10px;
 }
@@ -544,8 +544,6 @@ li a:hover{
 	width: 120px;
 	height: 100%;
 }
-
-
 
   .image2{
 	border-radius: 10px;
@@ -574,6 +572,12 @@ li a:hover{
 		padding-bottom: 3vw;
 	}
 
+	.projectimage {
+		width: 80vw;
+		height: 100%;
+		padding-bottom: 10px;
+	}
+
 	.projectimage2 {
 		width: 30vw;
 		height: 100%;
@@ -589,6 +593,12 @@ li a:hover{
 
 	.image2{
 		display: none;
+	}
+
+	.projectimage {
+		width: 80vw;
+		height: 100%;
+		padding-bottom: 10px;
 	}
 
   }
