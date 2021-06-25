@@ -521,6 +521,7 @@ li a:hover{
 .projectimage {
 	width: 30vw;
 	height: 100%;
+	padding-bottom: 10px;
 }
 
 .projectimage2 {
@@ -540,9 +541,11 @@ li a:hover{
 	display: block;
 }
 .logo{
-	width: 150px;
+	width: 120px;
 	height: 100%;
 }
+
+
 
   .image2{
 	border-radius: 10px;
