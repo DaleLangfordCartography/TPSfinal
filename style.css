@@ -530,7 +530,7 @@ li a:hover{
 	margin-left: auto;
 	margin-right: auto;
 	display: block;
-	padding-bottom: 5px;
+	padding-bottom: 2vw;
 }
 
 .projectimage3 {
@@ -540,7 +540,7 @@ li a:hover{
 	margin-right: auto;
 	display: block;
 	padding-top: 2vw;
-	padding-bottom: 2vw;
+	padding-bottom: 1vw;
 }
 
 .logo{

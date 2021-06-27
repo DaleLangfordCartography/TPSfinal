@@ -45,8 +45,7 @@
 <!-- GENERAL -->
 
 <div class="block1">
-    <h1 class="title4">The Problem</h1>
-	<p class = homeSubHead>Making Changes for a Better Future</p>
+    <h1 class="title4">Making Changes for a Better Future</h1>
 	<div>
 		<p class="generalText">The Toronto Police Service currently provides a large amount of data through a public web portal. 
 			Unfortunately, it is scattered across several web maps and dashboards and is hard to consume. The average person would 
@@ -57,8 +56,7 @@
 </div>
 
 <div class="block1">
-    <h1 class="title4">Project Scope</h1>
-	<p class = homeSubHead>How Can We Help?</p>
+    <h1 class="title4">How Can We Help?</h1>
 	<div>
 		<p class="generalText">We wanted to build an easy-to-use web application that allowed people to understand crime in their 
 			neighbourhood. People should be able to tell what types of crime occur in their neighbourhood, whether crime is 
@@ -68,8 +66,8 @@
 </div>
 
 <div class="block1">
-    <h1 class="title4">Prepping the Data</h1>
-	<p class = homeSubHead>FME Section</p>
+    <h1 class="title4">Prepping the Data: </h1>
+	<p class = homeSubHead> FME and Data Pre-processing</p>
 	<div>
 		<img class="projectimage3" alt="Screen capture of ETL process in FME" src="images/ETL.JPG" width="700" height="371">
 		<p class="generalText">All of the data used in this project are from public sources. Using FME to connect directly to 
@@ -83,7 +81,6 @@
 
 <div class="block1">
     <h1 class="title4">Custom Point Symbology</h1>
-	<p class = homeSubHead>Making super swanky symbols</p>
 	<div>
 		<img class="projectimage3" alt="Results of custom symbology creation" src="images/Symbology.png" width="700" height="329">
 		<p class="generalText">Custom point symbology was created for all crime types that were used in the KYN application. We 
@@ -96,27 +93,31 @@
 </div>
 
 <div class="block1">
-    <h1 class="title4">Bring it all Together</h1>
+    <h1 class="title4">Bringing it all Together</h1>
 	<p class = homeSubHead>Web Maps</p>
 	<div>
 		<img class="projectimage3" alt="Image of pop-up windows created using Arcade Expressions" src="images/Arcade_PopUp.png" width="700px" height="432px">
 		<p class = "projectimagesubtext">Here you can see the final look of the Web Map pop-up windows providing summary data for Toronto neighbourhoods</p>
-		<p class="generalText">The Toronto Police Service (TPS) was established in 1834 (the first local policing service of the continent!) and has been providing law enforcement 
-			services ever since following their core values: Service at the Core, Do the Right Thing, Connect with Compassion, Reflect and Grow. There are many working parts within 
-			the TPS, but this partiuclar project is being led by Tyler Munn and Debbie Verduga who occupy the roles of Senior GIS & and Data Intergration Specialist and Senior Crime 
-			Analyst respectively. 
+		<p class="generalText">Using AGOL Web Maps, we implemented our customized symbology and incorporated custom arcade statements. Arcade, ESRI’s in-house 
+			programming language, allows us to perform dynamic operations in the web environment. We used Arcade to make dynamic text, URLs, graphs and charts. 
 		</p>
 	</div>
 
 	<p class = homeSubHead>Dashboards</p>
 	<div>
 		<img class="projectimage3" alt="Finished Dashboards landing page in desktop and mobile" src="images/LandingPage_Methods.PNG" width="700px" height="332px">
-		<p class = "projectimagesubtext">Figure 1: Toronto Police Service Logo.</p>
-		<p class="generalText">The Toronto Police Service (TPS) was established in 1834 (the first local policing service of the continent!) and has been providing law enforcement 
-			services ever since following their core values: Service at the Core, Do the Right Thing, Connect with Compassion, Reflect and Grow. There are many working parts within 
-			the TPS, but this partiuclar project is being led by Tyler Munn and Debbie Verduga who occupy the roles of Senior GIS & and Data Intergration Specialist and Senior Crime 
-			Analyst respectively. 
+		<p class = "projectimagesubtext">Final Dashboard configuration of the KYN landing page in desktop and mobile</p>
+		<p class="generalText">To make the landing page of our application as simple and intuitive as possible, our team decided on the use of ESRI’s Dashboard application. 
+			A total of 6 Dashboards were created for this application, with 3 being configured for desktop and 3 configured for mobile devices. The dashboards were configured 
+			using the drag-and-drop customization – an ideal development option for creating rapid prototypes and updating configurations quickly to meet changes in need.
 		</p>
+
+		<p class="generalText">Users can explore the map by panning or zooming, searching an address, or by selecting their neighbourhood from a dropdown list. To provide 
+			the user with crime data for their neighbourhood, indicator and chart widgets were added. These widgets automatically update to show the user how crime has changed 
+			in the area that they are viewing. To provide additional at-a-glance information, the Indicator widget was formatted using Arcade expressions to highlight whether 
+			crime had increased, decreased, or stayed the same between 2019 and 2020. 
+		</p>
+
 	</div>
 
 	<p class = homeSubHead>Experience Builder</p>
