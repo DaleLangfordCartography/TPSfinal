@@ -539,6 +539,8 @@ li a:hover{
 	margin-left: auto;
 	margin-right: auto;
 	display: block;
+	padding-top: 2vw;
+	padding-bottom: 2vw;
 }
 .logo{
 	width: 120px;
