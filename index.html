@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html lang = "en">
 <head>
-	<title> The KYN App </title>
+	<title>KYN: Home</title>
 	<link rel="icon" type="image/png" href="images/FlemingGIS_SM.png">
 	<meta name="author" content="Dale Langford, Eric McNeill, Eric Millan">
-	<meta name="description" content="Splash Page for TPS Collaborative Group Project">
+	<meta name="description" content="Homepage for TPS Collaborative Group Project">
 	<meta name="keywords" content="TPS, Police, Crime Mapping, Toronto">
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -12,64 +12,114 @@
 	<!-- <script src="archaeoMaps.js"></script> -->
 	<link rel="preconnect" href="https://fonts.gstatic.com">
 	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
-
 	<script src="TPSJS.js"></script>
-    <script
-      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA9JiOUjKB61eY3aT_ZmBv5K4u8tjX_d9g&callback=initMap" defer> </script>
-	<script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
-
 </head> 
 
-<body class = "landing">
+<body class = "body">
+
+<header>
+<div class="header"></div>
+</header>
+
+<nav>
+<nav class="navbar">
+<!-- NAVBAR -->
+<ul class="navbar">
+	<li><a class="active" href="index.html">Home</a></li>		
+	<li><a href="project.html">Project</a></li>
+	<li><a href="solution.html">Solution</a></li>
+	<li><a href="team.html">Team</a></li>
+</ul>
+</nav>
+</nav>
 
 <main>
 <!-- PAGE EXPLANATION -->
-
-<div class = "landingBanner">
-	<div class = "landingBlock">
-		<h1 class = "landingText"> The Know Your Neighbourhood (KYN) Application</h1>
-		<h1 class = "landingText2">Join us in exploring the creation of a Neighbourhood focused
-									crime application for the City of Toronto
-		</h1>
-		<a class="landingButton" href="home.html" >Enter Site </a>
-	</div>
-
-
-
-	<!-- <div class = "block6">
-	<div class = block5>
-	<img class="headshot2" src="images\EMcNeill_Photo.jpg" alt="Eric McNeill Headshot" width="300" height="300">
-	<h1 class = text1>Eric</h1>
-	<h1 class = text1>McNeill</h1>
-	</div>
-	
-	
-	<div class = block5>
-	<img class="headshot2" src="images/DLangford_Headshot.jpg" alt="Dale Langford Headshot" width="300" height="300">
-	<h1 class = text1>Dale</h1>
-	<h1 class = text1>Langford</h1>
-	</div>
-	
-	<div class = block5>
-	<img class="headshot2" src="images/eMillan.png" alt="Eric Millan Headshot" width="300" height="300">
-	<h1 class = text1>Eric</h1>
-	<h1 class = text1>Millan</h1>
-	</div>
-	</div> -->
-
-
+<div class="intro">
+	<h1 class="headerText">Toronto Know Your Neighbourhood Crime Application</h1>
+	<p class="headerText2">A web solution for public engagement with local crime</p>
 </div>
+
+<div class="block4">
+	<img class="projectimage3" src= "images/LandingPage_Static.PNG" alt="KYN application landing page" width="700px" height="443px">
+	<img class="projectimage3" src= "images/Analytics_Static.PNG" alt="KYN application analytics page" width="700px" height="446px">
 </div>
 
 
+<!-- GENERAL -->
 
-	
+<div class="block1">
+    <h1 class = "title4"> Our Project</h1>
+	<p class="generalText">As part of their modernization initiatives, The Toronto Police Service (TPS) has expressed interest in the reinvigoration of 
+		their existing public information portal. The current TPS portal offers several individual web maps that communicate crime trends throughout the city 
+		but suffers from a lack of integration. The TPS has proposed a new web solution called Know Your Neighbourhood (KYN) which is intended to strengthen 
+		a user’s access to information about their community. As a community partner, we have developed a single web solution where users can explore crime 
+		information at the neighbourhood level. To accomplish these goals, we gathered and processed data, designed a web layout, designed, and implemented 
+		a standardized symbology, developed a web solution, and documented the entire process in the form of a detailed implementation guide. Community 
+		engagement and transparency is vital to effective policing, and this web solution will contribute to achieving this goal. </p>
+</div>
 
+<div class="block1">
+    <h1 class="title4">Meet Our Client</h1>
+	<p class = homeSubHead>Toronto Police Service</p>
+	<div>
+		<img class="projectimage2" alt="Toronto Police Service logo" src="images/TPSLogo.png" width="408" height="463">
+		<p class="generalText">The Toronto Police Service (TPS) was established in 1834 (the first local policing service of the continent!) and has been providing law enforcement 
+			services ever since following their core values: Service at the Core, Do the Right Thing, Connect with Compassion, Reflect and Grow. There are many working parts within 
+			the TPS, but this partiuclar project is being led by Tyler Munn and Debbie Verduga who occupy the roles of Senior GIS & and Data Intergration Specialist and Senior Crime 
+			Analyst respectively. We were also supported in this project by TPS Crime Analysts Derek Cooper and Gayathri Ganesan.
+		</p>
+	</div>
+</div>
 
+<div class="block1">
+    <h1 class = "title4"> Using this Website</h1>
+	<p class="generalText"> This website was developed to showcase our work on the Know Your Neighbourhood (KYN) Application. This application, built 
+		with ArcGIS Online Configurable Web Apps, is meant to give users meaningful information about crime in Toronto’s neighbourhoods.</p>
+		<p class="generalText"> To learn about the KYN project and our methods in developing the application, visit our 
+			<a class="link" href = "https://fleming-tps-kykapp.github.io/Collab/project.html">Projects page</a>. To view the 
+			final Web Application, please visit our <a class="link" href = "https://fleming-tps-kykapp.github.io/Collab/solution.html">Solutions page</a>. </p>
+	</div>
+
+<div class="block1">
+    <h1 class = "title4"> Collaborative Projects at Fleming College</h1>
+	<p class="generalText"> Every year, students from Fleming College’s Geographic Information Systems Applications Specialist and Cartographic Specialist 
+		programs venture into a co-operative GIS project involving real work and real clients. These projects integrate the various skills and knowledge 
+		gained throughout the first two semesters of study. Project topics have a wide breadth ranging from classification of remotely sensed data to 
+		developing web applications. Students have the opportunity to select projects that align with their interests and gain invaluable practical 
+		experience to prepare them for the GIS workforce!</p>
+</div>
+
+<div class="block1">
+    <h1 class = "title4"> Past TPS Collaborative Projects</h1>
+	<p class="generalText"> The Toronto Police Service (TPS) has partnered with Fleming College for the 2021 Collaborative Project Program detailing 
+		their project specifications and expected outcomes. However, this is not the first time the TPS has partnered with Fleming College in this 
+		program. In 2020, Fleming students developed a geocoder in their project titled 
+		<a class = "link" href="https://ssfcollege-my.sharepoint.com/personal/shawnm_flemingcollege_ca/Documents/Microsoft%20Teams%20Chat%20Files/2009_FinalReport_bcolgan_mvanmeer.pdf" target="_blank">
+		Transforming Location Descriptions To Spatial Data: Developing A Customized Canada-Wide Composite Locator</a> and serves as an excellent 
+		example of the high quality in what Fleming students produce for their clients. Our project is very different in nature, but all the same, 
+		our team is dedicated to producing high quality products that will be used and make a difference.</p>
+</div>
+
+<!-- LINKS TO PROJECTS -->
+<div class = "block3">
+	<p>Learn more about <a class="link" target=" " href = "https://www.geocommunity.net/#about">GIS at Fleming College</a> or visit our Geocommunity page 
+		to explore the other exciting <a class="link" target=" " href = "https://www.geocommunity.net/openhouse/">Collaborative Projects</a> completed this year.<p>
+</div>
+
+<!-- BRANDING -->
+<div class = "block3">
+<img class="logo" src= "images/FlemingGIS_SM.png" alt="Fleming GIS Logo" width="256px" height="158px">
+</div>
 
 </main>
 
-
+<footer>
+<!-- FOOTER -->
+<div class = "footer">
+<p class = "foottext"> Thank you for visiting - Fleming College 2021 ©</p>
+</div>
+</footer>
 
 </body>
 </html>
